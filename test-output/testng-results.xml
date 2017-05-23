@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Wingify Tasks" duration-ms="26115" started-at="2017-05-23T17:47:08Z" finished-at="2017-05-23T17:47:34Z">
+  <suite name="Default suite" duration-ms="29125" started-at="2017-05-23T18:24:19Z" finished-at="2017-05-23T18:24:48Z">
     <groups>
     </groups>
-    <test name="selectElement" duration-ms="26115" started-at="2017-05-23T17:47:08Z" finished-at="2017-05-23T17:47:34Z">
+    <test name="Default test" duration-ms="29125" started-at="2017-05-23T18:24:19Z" finished-at="2017-05-23T18:24:48Z">
       <class name="com.org.TestCases.SelectElementTest">
-        <test-method status="PASS" signature="intializeDriver(java.lang.String, java.lang.String)[pri:0, instance:com.org.TestCases.SelectElementTest@de59f0]" name="intializeDriver" is-config="true" duration-ms="13586" started-at="2017-05-23T23:17:08Z" finished-at="2017-05-23T23:17:21Z">
+        <test-method status="PASS" signature="intializeDriver(java.lang.String, java.lang.String)[pri:0, instance:com.org.TestCases.SelectElementTest@1b7516d]" name="intializeDriver" is-config="true" duration-ms="15823" started-at="2017-05-23T23:54:19Z" finished-at="2017-05-23T23:54:34Z">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.org.TestCases.SelectElementTest@de59f0]" name="driverSetup" is-config="true" duration-ms="0" started-at="2017-05-23T23:17:21Z" finished-at="2017-05-23T23:17:21Z">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.org.TestCases.SelectElementTest@1b7516d]" name="driverSetup" is-config="true" duration-ms="0" started-at="2017-05-23T23:54:34Z" finished-at="2017-05-23T23:54:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method status="PASS" signature="checkElementSelected()[pri:1, instance:com.org.TestCases.SelectElementTest@de59f0]" name="checkElementSelected" duration-ms="12482" started-at="2017-05-23T23:17:21Z" finished-at="2017-05-23T23:17:34Z">
+        <test-method status="PASS" signature="checkElementSelected()[pri:1, instance:com.org.TestCases.SelectElementTest@1b7516d]" name="checkElementSelected" duration-ms="13265" started-at="2017-05-23T23:54:34Z" finished-at="2017-05-23T23:54:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkElementSelected -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.TestCases.SelectElementTest@de59f0]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-05-23T23:17:34Z" finished-at="2017-05-23T23:17:34Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.TestCases.SelectElementTest@1b7516d]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-05-23T23:54:48Z" finished-at="2017-05-23T23:54:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.org.TestCases.SelectElementTest -->
-    </test> <!-- selectElement -->
-  </suite> <!-- Wingify Tasks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

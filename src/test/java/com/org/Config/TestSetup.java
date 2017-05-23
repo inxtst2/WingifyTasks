@@ -27,10 +27,8 @@ public class TestSetup {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--start-maximized");
 			driver = new ChromeDriver(options);
-			//driver.manage().window().maximize();
-			//System.out.println("Maximizing the window...");
 			driver.get(URL);
-				
+			
 			System.out.println("Opening URL in Chrome Browser...");
 			break;
 
