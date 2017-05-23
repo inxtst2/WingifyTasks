@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Wingify Tasks]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="http://app.vwo.com/#/campaign/108/summary?token=eyJhY2NvdW50X2lkIjoxNTA3MzQsImV4cGVyaW1lbnRfaWQiOjEwOCwiY3JlYXRlZF9vbiI6MTQ0NDgxMjQ4MSwidHlwZSI6ImNhbXBhaWduIiwidmVyc2lvbiI6MSwiaGFzaCI6IjJmZjk3OTVjZTgwNmFmZjJiOTI5NDczMTc5YTBlODQxIn0="/>
+  <test name="selectElement(failed)">
+    <classes>
+      <class name="com.org.TestCases.SelectElementTest">
+        <methods>
+          <include name="checkElementSelected"/>
+          <include name="closeBrowser"/>
+          <include name="driverSetup"/>
+          <include name="intializeDriver"/>
+        </methods>
+      </class> <!-- com.org.TestCases.SelectElementTest -->
+    </classes>
+  </test> <!-- selectElement(failed) -->
+</suite> <!-- Failed suite [Wingify Tasks] -->

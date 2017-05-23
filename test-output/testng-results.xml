@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Wingify Tasks" duration-ms="26115" started-at="2017-05-23T17:47:08Z" finished-at="2017-05-23T17:47:34Z">
+    <groups>
+    </groups>
+    <test name="selectElement" duration-ms="26115" started-at="2017-05-23T17:47:08Z" finished-at="2017-05-23T17:47:34Z">
+      <class name="com.org.TestCases.SelectElementTest">
+        <test-method status="PASS" signature="intializeDriver(java.lang.String, java.lang.String)[pri:0, instance:com.org.TestCases.SelectElementTest@de59f0]" name="intializeDriver" is-config="true" duration-ms="13586" started-at="2017-05-23T23:17:08Z" finished-at="2017-05-23T23:17:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://app.vwo.com/#/campaign/108/summary?token=eyJhY2NvdW50X2lkIjoxNTA3MzQsImV4cGVyaW1lbnRfaWQiOjEwOCwiY3JlYXRlZF9vbiI6MTQ0NDgxMjQ4MSwidHlwZSI6ImNhbXBhaWduIiwidmVyc2lvbiI6MSwiaGFzaCI6IjJmZjk3OTVjZTgwNmFmZjJiOTI5NDczMTc5YTBlODQxIn0=]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.org.TestCases.SelectElementTest@de59f0]" name="driverSetup" is-config="true" duration-ms="0" started-at="2017-05-23T23:17:21Z" finished-at="2017-05-23T23:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method status="PASS" signature="checkElementSelected()[pri:1, instance:com.org.TestCases.SelectElementTest@de59f0]" name="checkElementSelected" duration-ms="12482" started-at="2017-05-23T23:17:21Z" finished-at="2017-05-23T23:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkElementSelected -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.TestCases.SelectElementTest@de59f0]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-05-23T23:17:34Z" finished-at="2017-05-23T23:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.org.TestCases.SelectElementTest -->
+    </test> <!-- selectElement -->
+  </suite> <!-- Wingify Tasks -->
+</testng-results>
