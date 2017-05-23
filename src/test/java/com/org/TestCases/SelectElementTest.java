@@ -12,20 +12,18 @@ public class SelectElementTest extends TestSetup {
 	private WebDriver driver;
 	VWOHome home;
 	VWOHeatMaps heatMaps;
+
 	@BeforeClass
-	public void driverSetup()
-	{
-		driver=getDriver();
+	public void driverSetup() {
+		driver = getDriver();
 	}
-	
-	@Test(priority=1)
-	public void checkElementSelected()
-	{
-		home=new VWOHome(driver);
+
+	@Test(priority = 1)
+	public void checkElementSelected() {
+		home = new VWOHome(driver);
 		home.openheatMapinNewTab();
-		heatMaps=new VWOHeatMaps(driver);
+		heatMaps = new VWOHeatMaps(driver);
 		heatMaps.selectElement();
 	}
-	
 
 }
