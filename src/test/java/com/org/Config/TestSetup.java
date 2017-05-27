@@ -19,9 +19,9 @@ public class TestSetup {
 
 	}
 
-	public void setDriver(String browser, String URL) {
-		switch (browser) {
-		case "chrome":
+	public void setDriver(int browserid, String URL) {
+		switch (browserid) {
+		case 1:
 			System.out.println("Chrome Driver intializing...");
 			System.setProperty("webdriver.chrome.driver", projectPath + "\\chromedriver\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
@@ -32,7 +32,7 @@ public class TestSetup {
 			System.out.println("Opening URL in Chrome Browser...");
 			break;
 
-		case "firefox":
+		case 2:
 			System.out.println("Firefox Driver intializing...");
 			driver = new FirefoxDriver();
 			driver.get(URL);
@@ -48,9 +48,9 @@ public class TestSetup {
 
 	@Parameters({ "browser", "URL" })
 	@BeforeClass
-	public void intializeDriver(String browser, String URL) {
+	public void intializeDriver(int browserid, String URL) {
 		try {
-			setDriver(browser, URL);
+			setDriver(browserid, URL);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

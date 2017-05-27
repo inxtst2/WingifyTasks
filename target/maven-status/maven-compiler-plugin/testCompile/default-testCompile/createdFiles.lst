@@ -1,1 +1,4 @@
-com\org\myMaven\FirstTest.class
+com\org\PageObjects\VWOHeatMaps.class
+com\org\TestCases\SelectElementTest.class
+com\org\Config\TestSetup.class
+com\org\PageObjects\VWOHome.class
